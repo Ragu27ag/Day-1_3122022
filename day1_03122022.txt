@@ -1,0 +1,55 @@
+HTTP 1.1                             |               HTTP2                       
+---------------------------------------------------------------------------------------
+                                    
+HTTP1.x uses text-based commands to  |   HTTP2, on the other hand, uses binary commands (1s and 0s) to complete HTTP requests. 
+complete HTTP requests. If you were  |   It needs to be converted back from binary to read the request.
+to view one of these requests,       |
+they would be perfectly readable     |                          
+
+It uses requests resource Inlining   |  It uses PUSH frame by server that collects all multiple pages 
+for use getting multiple pages       |
+
+Response time is high                |  Response time is low 
+
+Processes single request at a time   |  Processes multiple request at a time using multiplexing
+
+
+
+
+
+
+
+Objects in Javascript
+
+Objects can hold many values in form of Key: value pair. 
+These keys can be variables or functions and are called properties and methods, respectively, in the context of an object.
+
+
+SYNTAX:
+
+NEW KEYWORD
+
+let car1 = new Vehicle(’Fiesta’, 'Ford’);
+let car2 = new Vehicle(’Santa Fe’, 'Hyundai’)
+
+
+OBJECT LITERAL
+
+let bike = {name: 'SuperSport', maker:'Ducati', engine:'937cc'};
+
+
+JavaScript Object Properties
+
+A JavaScript object is basically a collection of unordered properties. Values associated with a JavaScript object are called its properties. 
+Properties can usually be added, updated, and deleted, excluding read-only properties.
+
+
+Deleting Objects
+
+Using delete operator we can remove an object
+
+myobj= new Array(element1, element2)
+
+delete myobj
+
+                                      
